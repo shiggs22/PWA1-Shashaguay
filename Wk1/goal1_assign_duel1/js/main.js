@@ -21,5 +21,18 @@ Assignment: Goal1: Assignment: Duel1
     var playerOneHealth = 100;
     var playerTwoDamage = 100;
 
+    //round of fight
+    var round = 1;
+
+
+//fight function
+function fight(){};
+
+// winner check function
+function winnerCheck(){};
+
+    // fight call
+    fight();
+
 })();
 
