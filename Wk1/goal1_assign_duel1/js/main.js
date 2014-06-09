@@ -33,7 +33,11 @@ function fight(){
 
         // if "i" is less than 10, then the code will go here
         for(var i=0; i < 10; i++){
-            //console.log(i);
+
+        // random number formula
+        Math.floor(Math.random() * (max - min) + min);
+
+
         };
     };
 
