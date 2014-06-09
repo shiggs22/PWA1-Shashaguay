@@ -2,6 +2,7 @@
 Name: Nicholas Shashaguay
 Date: 06/08/2014
 Assignment: Goal1: Assignment: Duel1
+Note: Changed the names of the fighters who are on the screen
  */
 
 // self executing function
@@ -10,8 +11,8 @@ Assignment: Goal1: Assignment: Duel1
     console.log("FIGHT!!!");
 
     //player name
-    var playerOneName = "Spiderman";
-    var playerTwoName = "Batman";
+    var playerOneName = "Kabal";
+    var playerTwoName = "Kratos";
 
     //player damage
     var player1Damage = 20;
