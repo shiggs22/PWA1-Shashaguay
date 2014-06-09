@@ -20,6 +20,7 @@ Note: Changed the names of the fighters who are on the screen
 
     //player health
     var playerOneHealth = 100;
+
     var playerTwoHealth = 100;
 
     //round of fight
@@ -30,6 +31,7 @@ Note: Changed the names of the fighters who are on the screen
 function fight(){
         console.log("in the fight function");
 
+        //alert to show the players names and their health at the start of the program 
         alert(playerOneName+":"+playerOneHealth+" START "+playerTwoName+":"+playerTwoHealth);
 
         // if "i" is less than 10, then the code will go here
