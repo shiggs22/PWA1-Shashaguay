@@ -19,7 +19,7 @@ Assignment: Goal1: Assignment: Duel1
 
     //player health
     var playerOneHealth = 100;
-    var playerTwoDamage = 100;
+    var playerTwoHealth = 100;
 
     //round of fight
     var round = 1;
@@ -28,10 +28,13 @@ Assignment: Goal1: Assignment: Duel1
     //fight function
 function fight(){
         console.log("in the fight function");
+
+        alert(playerOneName+":"+playerOneHealth+" START "+playerTwoName+":"+playerTwoHealth);
+
         // if "i" is less than 10, then the code will go here
         for(var i=0; i < 10; i++){
-
-        }
+            //console.log(i);
+        };
     };
 
     // winner check function
@@ -41,7 +44,7 @@ function fight(){
     };
 
         // fight call. this will execute the fight function
-        console.log("program starts")
+        console.log("program starts");
         fight();
 
 })();
