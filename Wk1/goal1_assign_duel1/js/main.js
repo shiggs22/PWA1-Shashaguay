@@ -50,7 +50,11 @@ function fight(){
             // damage inflicted
             playerOneHealth-=f1;
             playerTwoHealth-=f2;
+
+            // health log for both players
             console.log(playerOneName+":"+playerOneHealth+" "+playerTwoName+":"+playerTwoHealth);
+
+            winnerCheck();
 
 
 
@@ -59,8 +63,20 @@ function fight(){
 
     // winner check function
     function winnerCheck(){
-        //winner check code will go here
-        winnerCheck()
+
+        var result="No Winner";
+
+        if(playerOneHealth<1 && playerTwoHealth<1){
+
+            result = "You Both Die!";
+        } else if(playerOneHealth<1){
+
+            result =playerTwoName+"WINS!"
+        } else if(playerTwoHealth<1){
+
+            result =playerOneName+"WINS!"
+        };
+
     };
 
         // fight call. this will execute the fight function
