@@ -34,13 +34,17 @@ function fight(){
         // if "i" is less than 10, then the code will go here
         for(var i=0; i < 10; i++){
 
-        // random number formula
-        Math.floor(Math.random() * (max - min) + min);
+            // random number formula
+            Math.floor(Math.random() * (max - min) + min);
 
-        //min damage for both players
+            //min damage for both players
 
-        var minDamage1 = player1Damage * .5;
-        var minDamage2 =  player2Damage * .5;
+            var minDamage1 = player1Damage * .5;
+            var minDamage2 =  player2Damage * .5;
+
+            // this will create random numbers for each round for min damage
+            var f1 = Math.floor(Math.random()*(player1Damage-minDamage1)+minDamage1);
+            var f2 = Math.floor(Math.random()*(player2Damage-minDamage2)+minDamage2);
 
 
         };
