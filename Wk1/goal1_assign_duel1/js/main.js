@@ -35,7 +35,7 @@ function fight(){
         for(var i=0; i < 10; i++){
 
             // random number formula
-            Math.floor(Math.random() * (max - min) + min);
+            //Math.floor(Math.random() * (max - min) + min);
 
             //min damage for both players
 
@@ -45,6 +45,14 @@ function fight(){
             // this will create random numbers for each round for min damage
             var f1 = Math.floor(Math.random()*(player1Damage-minDamage1)+minDamage1);
             var f2 = Math.floor(Math.random()*(player2Damage-minDamage2)+minDamage2);
+
+
+            // damage inflicted
+            playerOneHealth-=f1;
+            playerTwoHealth-=f2;
+
+            console.log(playerOneHealth);
+            console.log(playerTwoHealth);
 
 
         };
