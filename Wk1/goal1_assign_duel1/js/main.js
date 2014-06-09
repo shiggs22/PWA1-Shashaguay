@@ -50,9 +50,8 @@ function fight(){
             // damage inflicted
             playerOneHealth-=f1;
             playerTwoHealth-=f2;
+            console.log(playerOneName+":"+playerOneHealth+" "+playerTwoName+":"+playerTwoHealth);
 
-            console.log(playerOneHealth);
-            console.log(playerTwoHealth);
 
 
         };
