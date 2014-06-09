@@ -37,6 +37,11 @@ function fight(){
         // random number formula
         Math.floor(Math.random() * (max - min) + min);
 
+        //min damage for both players
+
+        var minDamage1 = player1Damage * .5;
+        var minDamage2 =  player2Damage * .5;
+
 
         };
     };
