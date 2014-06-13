@@ -1,7 +1,7 @@
 /*
 Name: Nicholas Shashaguay
-Date: 06/08/2014
-Assignment: Goal1: Assignment: Duel1
+Date: 06/13/2014
+Assignment: Goal2: Assignment: Duel2
 Note: Changed the names of the fighters who are on the screen
  */
 
