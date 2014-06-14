@@ -5,34 +5,26 @@ Assignment: Goal2: Assignment: Duel2
 Note: Changed the names of the fighters who are on the screen
  */
 
-// self executing function
-(function(){
+// this function is for the players name, damage, and health
+(function() {
 
     console.log("FIGHT!!!");
 
     //players name, damage, and health in a array format
-    var playerOneName = ["Kabal", 20, 100];
-    var playerTwoName = ["Kratos", 20, 100];
+    var fighter1 = ["Kabal", 20, 100];
+    var fighter2 = ["Kratos", 20, 100];
 
-
-
-
-
-
-
-
-
-
-    //round of fight
+    //global variable for the rounds of the fight
     var round = 0;
+
 
 
     //fight function
 function fight(){
-        console.log("in the fight function");
+        console.log("FIGHT!!!");
 
         //alert to show the players names and their health at the start of the program
-        alert(playerOneName+":"+playerOneHealth+" START "+playerTwoName+":"+playerTwoHealth);
+        alert(fighter1[0]+":"+fighter1[2]+" *START* "+fighter2[0]+":"+fighter2[2]);
 
         // if "i" is less than 10, then the code will go here
         for(var i=0; i < 10; i++){
