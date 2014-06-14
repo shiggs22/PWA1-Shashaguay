@@ -10,18 +10,18 @@ Note: Changed the names of the fighters who are on the screen
 
     console.log("FIGHT!!!");
 
-    //player name
-    var playerOneName = "Kabal";
-    var playerTwoName = "Kratos";
+    //players name, damage, and health in a array format
+    var playerOneName = ["Kabal", 20, 100];
+    var playerTwoName = ["Kratos", 20, 100];
 
-    //player damage
-    var player1Damage = 20;
-    var player2Damage = 20;
 
-    //player health
-    var playerOneHealth = 100;
 
-    var playerTwoHealth = 100;
+
+
+
+
+
+
 
     //round of fight
     var round = 0;
