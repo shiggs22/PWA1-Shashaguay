@@ -7,4 +7,15 @@
 
 
 
-alert("test")
+//alert("test")
+
+function () {
+    console.log("FIGHT!");
+
+    var fighter1_txt = document.querySelector("#ww").querySelector("p");
+    var fighter2_txt = document.querySelector("#bw").querySelector("p");
+    var round_txt = document.querySelector("h4");
+    var button = document.getElementById("fight_btn");
+}
+
+button.addEventListener("click", fight, false);
