@@ -35,3 +35,8 @@ var fighters = [
         health:100
 
     }];
+var round = 1;
+
+round_txt.innerHTML = "Click FIGHT to start!";
+fighter1_txt.innerText = fighters[0].name + ":" + fighters[0].health;
+fighter2_txt.innerText = fighters[1].name + ":" + fighters[1].health;
