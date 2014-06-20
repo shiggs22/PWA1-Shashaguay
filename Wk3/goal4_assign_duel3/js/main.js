@@ -19,3 +19,19 @@ function () {
 }
 
 button.addEventListener("click", fight, false);
+
+
+var fighters = [
+
+    {
+        name:"Kabal",
+        damage:20,
+        health:100
+
+    },
+    {
+        name:"Kratos",
+        damage:20,
+        health:100
+
+    }];
