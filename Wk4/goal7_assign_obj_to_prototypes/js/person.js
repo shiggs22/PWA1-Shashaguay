@@ -13,7 +13,7 @@
 
     // description of the people's jobs and the actions they take during the time frame
     Person.jobs = ["fighter", "trainer", "student", "military"];
-    Person.actions = ["sleeping", "training", "working"];
+    Person.actions = ["sleeping", "eating", "working"];
 
 
     function Person(name, row) {
