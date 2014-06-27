@@ -1,5 +1,5 @@
 /**
- * Created by the JavaScript Development Team
- * Class: PWA
+ *  Nicholas Shashaguay
+ * 06/27/2014
  * Goal: Goal7
  */
