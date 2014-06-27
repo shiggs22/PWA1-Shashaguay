@@ -36,7 +36,16 @@
 
    }
 
+    // prototype created to function 30 times a second thus randomly determines the action change for each person
+    Person.prototype.update = function(){
+        if (Math.floor(Math.random() <.01)){
+            var i = Math.floor(Math.random()*Person.actions.length);
+            this.action = Person.actions[i];
+            var id = document.getElementById("r"+this.row+"c3");
+            id.innerHTML=this.actions;
+        }
 
+    }
 
 
 
