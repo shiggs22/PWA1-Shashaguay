@@ -13,7 +13,7 @@
 
     // description of the people's jobs and the actions they take during the time frame
     Person.jobs = ["fighter", "trainer", "student", "military"];
-    Person.actions = ["sleeping", "eating", "working"];
+    Person.actions = ["sleeping", "taining", "working"];
 
 
     function Person(name, row) {
@@ -42,7 +42,7 @@
             var i = Math.floor(Math.random() * Person.actions.length);
             this.action = Person.actions[i];
             var id = document.getElementById("r"+this.row+"c3");
-            id.innerHTML = this.actions;
+            id.innerHTML = this.action;
         }
 
     }

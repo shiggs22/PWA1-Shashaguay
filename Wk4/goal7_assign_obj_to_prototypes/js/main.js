@@ -45,6 +45,7 @@
     function runUpdate() {
 
         people.forEach(function (element) {
+           //console.log(element);
             element.update();
         });
     }
